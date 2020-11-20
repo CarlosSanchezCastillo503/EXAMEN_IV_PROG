@@ -118,6 +118,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Global.asax" />
+    <Content Include="MENU.aspx" />
     <Content Include="scripts\ai.0.22.9-build00167.js" />
     <Content Include="scripts\ai.0.22.9-build00167.min.js" />
     <Content Include="Web.config" />
@@ -128,6 +129,13 @@
     <Compile Include="Controllers\NumerosController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
+    </Compile>
+    <Compile Include="MENU.aspx.cs">
+      <DependentUpon>MENU.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="MENU.aspx.designer.cs">
+      <DependentUpon>MENU.aspx</DependentUpon>
     </Compile>
     <Compile Include="Models\Deportista.cs" />
     <Compile Include="Models\Numeros.cs" />
